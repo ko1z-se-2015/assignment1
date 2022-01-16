@@ -1,4 +1,6 @@
 package com.company.abstract_classes;
 
-abstract public class Fish extends Animal {
+import com.company.interfaces.Swimable;
+
+abstract public class Fish extends Animal implements Swimable {
 }
